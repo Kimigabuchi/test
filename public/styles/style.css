@@ -1,0 +1,12 @@
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+#container2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  position: absolute;
+}

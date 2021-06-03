@@ -1,0 +1,55 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="787.5" scrolly="402.50000000000006" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="665.6963661891142" scrolly="606.6396274001233" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="nhq*s=]%I3v%(*s.Afd|" x="-630" y="-50">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="k5mk%e^,IwECXk67NrHq">
+          <field name="TEXT">rew1</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="T7edBITG3lVIE|]?.OJw">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemAttribute" id="B,,*E{3O$jwMY|=L,s*H">
+          <field name="ATTRIBUTE">innerHTML</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="textMultiline" id="BDr?5YhY`TM5slTP4y,^">
+              <field name="HIGHLIGHT_MODE">html</field>
+              <field name="TEXT">&lt;button class="test-button"&gt;Click me!&lt;/button&gt;</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="F{,g1J;n)p3e+#gKjDX4">
+              <field name="TEXT">rew1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setCSSRuleStyle" id="U2exYN:)U$)S?vJBlK6+">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+              <field name="PROPERTY">color</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="g}_wR0#vq-Cdy(k(aPfs">
+                  <field name="TEXT">red</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id=".}e(y4ge)AKaY-Y}9OsM">
+                  <field name="TEXT">button.test-button</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1029" viewport-y="28" viewport-w="698" viewport-h="440.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

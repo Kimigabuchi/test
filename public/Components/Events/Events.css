@@ -1,0 +1,29 @@
+.events-header {
+  text-align: center;
+}
+
+#events-container {
+  padding: 10px;
+}
+
+.events-show-event-dialog-btn {
+  background-color: #14CC45;
+  border: 1px solid #14CC45;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.events-add-event-btn {
+  background-color: #14CC45;
+  border: 1px solid #14CC45;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.events-add-event-container {
+  display: none;
+}
+
+#events-container {
+  background-color: #fff;
+}
